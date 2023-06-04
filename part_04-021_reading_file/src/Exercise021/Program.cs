@@ -1,0 +1,20 @@
+﻿namespace Exercise021
+{
+    using System;
+    using System.IO;
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            string text = File.ReadAllText("data.txt");
+            System.Console.WriteLine(text);
+
+
+
+
+            // Read the file data.txt and print the text from it as it is
+            // You can use either File.ReadAllText or File.ReadAllLines
+
+        }
+    }
+}
